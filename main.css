@@ -237,6 +237,7 @@ body {
 .card-colorblock-about img {
     background-size: cover;
     box-sizing: border-box;
+    display: block;
     width: 100vw;
 }
 
@@ -266,7 +267,6 @@ body {
 .card-colorblock-profile p, .card-colorblock-profile quote, .card-colorblock-profile cite {
     font-size: 3vw;
     font-weight: 400;
-    margin: 0;
 }
 
 .card-colorblock-profile quote {
@@ -279,6 +279,7 @@ body {
 }
 
 .card-colorblock-profile img {
+    display: block;
     width: 100vw;
 }
 
@@ -291,7 +292,6 @@ body {
         box-sizing: border-box;
         display: flex;
         justify-content: center;
-        min-height: 100vh;
         padding: 0;
     }
     
@@ -331,7 +331,6 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        min-height: 100vh;
         padding: 2rem 1rem;
     }
     
@@ -555,7 +554,6 @@ details[open] summary::-webkit-details-marker {
     justify-content: center;
     margin: 1rem;
     max-width: 24rem;
-    min-height: 100vh;
     padding: 1rem;
 }
 
